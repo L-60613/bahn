@@ -43,6 +43,8 @@ public class BstProvider{
 
         catch(IOException e) {
             System.out.println("Fehler beim Lesen: " + e.getMessage());
+            System.out.println("Das Programm wird abgebrochen.");
+            System.exit(-1);
         }
     }
 
